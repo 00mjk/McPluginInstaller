@@ -5,7 +5,8 @@ the hidden uploader will upload the plugin and reload and change file propeity t
 
 credits go to https://github.com/IAmANoot/MCPluginManager for the main part of the installer 
 
-the code to hide the plugin
+
+## the code to hide the plugin
 
 ```java
 Files.setAttribute(Paths.get("plugins/" + name + ".jar"), "dos:hidden", true);
